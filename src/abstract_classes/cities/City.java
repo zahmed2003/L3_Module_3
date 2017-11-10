@@ -1,4 +1,4 @@
-package abstract_classes;
+package abstract_classes.cities;
 
 public abstract class City {
 	protected int population;
