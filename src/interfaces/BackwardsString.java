@@ -9,7 +9,9 @@ public class BackwardsString extends SpecialString{
 	@Override
 	public String funkifyText(String text) {
 		
-		return null;
+		text = new StringBuilder(text).reverse().toString();
+		
+		return text;
 	}
 
 }

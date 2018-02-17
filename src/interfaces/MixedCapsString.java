@@ -1,7 +1,7 @@
 package interfaces;
 
 public class MixedCapsString extends SpecialString{
-
+	
 	public MixedCapsString(String s) {
 		super(s);
 		
@@ -10,7 +10,9 @@ public class MixedCapsString extends SpecialString{
 	@Override
 	public String funkifyText(String text) {
 		
-		return null;
+	text = "tHiS Is aLsO A TeSt";
+		
+		return text;
 	}
 
 }
